@@ -1,0 +1,3302 @@
+[
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Winter",
+        "Sales": 8803
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 8224
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Biscuits",
+        "Season": "Monsoon",
+        "Sales": 8068
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Cookies",
+        "Season": "Monsoon",
+        "Sales": 7985
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Atta & Flour",
+        "Season": "Summer",
+        "Sales": 7389
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Breads & Buns",
+        "Season": "Monsoon",
+        "Sales": 6364
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Monsoon",
+        "Sales": 5920
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Organic Staples",
+        "Season": "Monsoon",
+        "Sales": 5290
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Eggs",
+        "Season": "Monsoon",
+        "Sales": 5278
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Health Drinks",
+        "Season": "Monsoon",
+        "Sales": 5124
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Rice",
+        "Season": "Autumn",
+        "Sales": 4872
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Spices",
+        "Season": "Winter",
+        "Sales": 4669
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Organic Fruits",
+        "Season": "Monsoon",
+        "Sales": 4510
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Mutton",
+        "Season": "Monsoon",
+        "Sales": 4198
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Winter",
+        "Sales": 3613
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Cakes",
+        "Season": "Monsoon",
+        "Sales": 3563
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Fish",
+        "Season": "Autumn",
+        "Sales": 3472
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Soft Drinks",
+        "Season": "Autumn",
+        "Sales": 3310
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Summer",
+        "Sales": 2835
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Masalas",
+        "Season": "Monsoon",
+        "Sales": 2739
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Monsoon",
+        "Sales": 2717
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Chocolates",
+        "Season": "Monsoon",
+        "Sales": 2593
+    },
+    {
+        "City": "Virudhunagar",
+        "Sub Category": "Chicken",
+        "Season": "Monsoon",
+        "Sales": 2227
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Organic Staples",
+        "Season": "Winter",
+        "Sales": 8333
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Monsoon",
+        "Sales": 7024
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Eggs",
+        "Season": "Monsoon",
+        "Sales": 6398
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Health Drinks",
+        "Season": "Monsoon",
+        "Sales": 6282
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Chocolates",
+        "Season": "Winter",
+        "Sales": 6062
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Atta & Flour",
+        "Season": "Monsoon",
+        "Sales": 5895
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Masalas",
+        "Season": "Winter",
+        "Sales": 5723
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Soft Drinks",
+        "Season": "Autumn",
+        "Sales": 5723
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Biscuits",
+        "Season": "Autumn",
+        "Sales": 5659
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Breads & Buns",
+        "Season": "Autumn",
+        "Sales": 5647
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Cookies",
+        "Season": "Monsoon",
+        "Sales": 5237
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Mutton",
+        "Season": "Autumn",
+        "Sales": 5164
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Monsoon",
+        "Sales": 4960
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Spices",
+        "Season": "Autumn",
+        "Sales": 4761
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Organic Fruits",
+        "Season": "Autumn",
+        "Sales": 4547
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Monsoon",
+        "Sales": 4165
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Chicken",
+        "Season": "Monsoon",
+        "Sales": 3838
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Winter",
+        "Sales": 3536
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Autumn",
+        "Sales": 3462
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Cakes",
+        "Season": "Monsoon",
+        "Sales": 3382
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 2892
+    },
+    {
+        "City": "Viluppuram",
+        "Sub Category": "Rice",
+        "Season": "Winter",
+        "Sales": 2623
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Chocolates",
+        "Season": "Winter",
+        "Sales": 16601
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Soft Drinks",
+        "Season": "Autumn",
+        "Sales": 8793
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Organic Staples",
+        "Season": "Summer",
+        "Sales": 7797
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Spices",
+        "Season": "Monsoon",
+        "Sales": 7118
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Fish",
+        "Season": "Monsoon",
+        "Sales": 7094
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 6352
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Cookies",
+        "Season": "Autumn",
+        "Sales": 6224
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Health Drinks",
+        "Season": "Autumn",
+        "Sales": 6146
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Biscuits",
+        "Season": "Monsoon",
+        "Sales": 6085
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Summer",
+        "Sales": 6043
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Monsoon",
+        "Sales": 5902
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Chicken",
+        "Season": "Monsoon",
+        "Sales": 5756
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Breads & Buns",
+        "Season": "Winter",
+        "Sales": 5407
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Masalas",
+        "Season": "Autumn",
+        "Sales": 5247
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Mutton",
+        "Season": "Monsoon",
+        "Sales": 5056
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Cakes",
+        "Season": "Winter",
+        "Sales": 4915
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Organic Fruits",
+        "Season": "Monsoon",
+        "Sales": 4730
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Monsoon",
+        "Sales": 4411
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Monsoon",
+        "Sales": 4040
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Rice",
+        "Season": "Autumn",
+        "Sales": 3309
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Atta & Flour",
+        "Season": "Monsoon",
+        "Sales": 3054
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Eggs",
+        "Season": "Monsoon",
+        "Sales": 2790
+    },
+    {
+        "City": "Vellore",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Autumn",
+        "Sales": 2282
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Soft Drinks",
+        "Season": "Winter",
+        "Sales": 7607
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Cakes",
+        "Season": "Monsoon",
+        "Sales": 6911
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Health Drinks",
+        "Season": "Monsoon",
+        "Sales": 6503
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Chocolates",
+        "Season": "Monsoon",
+        "Sales": 5858
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Rice",
+        "Season": "Autumn",
+        "Sales": 5710
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Summer",
+        "Sales": 5239
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Cookies",
+        "Season": "Monsoon",
+        "Sales": 5111
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Monsoon",
+        "Sales": 4986
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 4944
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Eggs",
+        "Season": "Autumn",
+        "Sales": 4812
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Chicken",
+        "Season": "Winter",
+        "Sales": 4743
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Mutton",
+        "Season": "Autumn",
+        "Sales": 4227
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Organic Fruits",
+        "Season": "Winter",
+        "Sales": 4038
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Atta & Flour",
+        "Season": "Monsoon",
+        "Sales": 3819
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Spices",
+        "Season": "Monsoon",
+        "Sales": 3735
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Organic Staples",
+        "Season": "Monsoon",
+        "Sales": 3484
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Monsoon",
+        "Sales": 3244
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Autumn",
+        "Sales": 2971
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Masalas",
+        "Season": "Monsoon",
+        "Sales": 2496
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Fish",
+        "Season": "Monsoon",
+        "Sales": 2479
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Summer",
+        "Sales": 2342
+    },
+    {
+        "City": "Trichy",
+        "Sub Category": "Breads & Buns",
+        "Season": "Monsoon",
+        "Sales": 1956
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Summer",
+        "Sales": 8785
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Organic Fruits",
+        "Season": "Monsoon",
+        "Sales": 8372
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Monsoon",
+        "Sales": 7920
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Breads & Buns",
+        "Season": "Monsoon",
+        "Sales": 7901
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Soft Drinks",
+        "Season": "Monsoon",
+        "Sales": 7771
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Biscuits",
+        "Season": "Winter",
+        "Sales": 7580
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Fish",
+        "Season": "Autumn",
+        "Sales": 6578
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Health Drinks",
+        "Season": "Autumn",
+        "Sales": 6267
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Cookies",
+        "Season": "Monsoon",
+        "Sales": 5983
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Chocolates",
+        "Season": "Autumn",
+        "Sales": 5950
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Masalas",
+        "Season": "Monsoon",
+        "Sales": 5588
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Monsoon",
+        "Sales": 5367
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Eggs",
+        "Season": "Monsoon",
+        "Sales": 4932
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 4808
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Monsoon",
+        "Sales": 4464
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Cakes",
+        "Season": "Autumn",
+        "Sales": 4282
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Spices",
+        "Season": "Autumn",
+        "Sales": 3355
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Organic Staples",
+        "Season": "Autumn",
+        "Sales": 3326
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Atta & Flour",
+        "Season": "Winter",
+        "Sales": 3143
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Autumn",
+        "Sales": 2691
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Chicken",
+        "Season": "Monsoon",
+        "Sales": 2278
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Rice",
+        "Season": "Summer",
+        "Sales": 2265
+    },
+    {
+        "City": "Tirunelveli",
+        "Sub Category": "Mutton",
+        "Season": "Monsoon",
+        "Sales": 1352
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Soft Drinks",
+        "Season": "Monsoon",
+        "Sales": 11653
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Autumn",
+        "Sales": 9131
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Breads & Buns",
+        "Season": "Monsoon",
+        "Sales": 6994
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Masalas",
+        "Season": "Monsoon",
+        "Sales": 6885
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Organic Fruits",
+        "Season": "Monsoon",
+        "Sales": 6381
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Autumn",
+        "Sales": 5512
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Organic Staples",
+        "Season": "Summer",
+        "Sales": 5050
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Biscuits",
+        "Season": "Winter",
+        "Sales": 5029
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Monsoon",
+        "Sales": 4957
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Fish",
+        "Season": "Monsoon",
+        "Sales": 4901
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Spices",
+        "Season": "Monsoon",
+        "Sales": 4714
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Atta & Flour",
+        "Season": "Monsoon",
+        "Sales": 4570
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Eggs",
+        "Season": "Monsoon",
+        "Sales": 3875
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Cookies",
+        "Season": "Summer",
+        "Sales": 3734
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Cakes",
+        "Season": "Monsoon",
+        "Sales": 3650
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Mutton",
+        "Season": "Monsoon",
+        "Sales": 3570
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Summer",
+        "Sales": 3523
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Health Drinks",
+        "Season": "Summer",
+        "Sales": 3316
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Chocolates",
+        "Season": "Winter",
+        "Sales": 3022
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Chicken",
+        "Season": "Winter",
+        "Sales": 2750
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Autumn",
+        "Sales": 2530
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Noodles",
+        "Season": "Summer",
+        "Sales": 2396
+    },
+    {
+        "City": "Theni",
+        "Sub Category": "Rice",
+        "Season": "Winter",
+        "Sales": 2060
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Breads & Buns",
+        "Season": "Autumn",
+        "Sales": 12152
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Mutton",
+        "Season": "Monsoon",
+        "Sales": 11432
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Fish",
+        "Season": "Winter",
+        "Sales": 10821
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Soft Drinks",
+        "Season": "Monsoon",
+        "Sales": 8961
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Cookies",
+        "Season": "Winter",
+        "Sales": 7805
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Health Drinks",
+        "Season": "Monsoon",
+        "Sales": 6736
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Winter",
+        "Sales": 5850
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Eggs",
+        "Season": "Winter",
+        "Sales": 5614
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Spices",
+        "Season": "Monsoon",
+        "Sales": 5446
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Masalas",
+        "Season": "Winter",
+        "Sales": 5074
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Atta & Flour",
+        "Season": "Winter",
+        "Sales": 4721
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Autumn",
+        "Sales": 4641
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Cakes",
+        "Season": "Summer",
+        "Sales": 4586
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Winter",
+        "Sales": 4498
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Autumn",
+        "Sales": 4487
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Chicken",
+        "Season": "Autumn",
+        "Sales": 4426
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Biscuits",
+        "Season": "Monsoon",
+        "Sales": 4246
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Rice",
+        "Season": "Autumn",
+        "Sales": 4104
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Organic Staples",
+        "Season": "Autumn",
+        "Sales": 3413
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Chocolates",
+        "Season": "Summer",
+        "Sales": 3383
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Summer",
+        "Sales": 3142
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Organic Fruits",
+        "Season": "Monsoon",
+        "Sales": 2861
+    },
+    {
+        "City": "Tenkasi",
+        "Sub Category": "Noodles",
+        "Season": "Summer",
+        "Sales": 2832
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 9308
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Soft Drinks",
+        "Season": "Monsoon",
+        "Sales": 8098
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Chocolates",
+        "Season": "Summer",
+        "Sales": 7166
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Breads & Buns",
+        "Season": "Monsoon",
+        "Sales": 6671
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Cakes",
+        "Season": "Summer",
+        "Sales": 6658
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Health Drinks",
+        "Season": "Autumn",
+        "Sales": 6382
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Winter",
+        "Sales": 6169
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Biscuits",
+        "Season": "Monsoon",
+        "Sales": 6128
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Masalas",
+        "Season": "Summer",
+        "Sales": 6033
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Autumn",
+        "Sales": 5922
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Fish",
+        "Season": "Winter",
+        "Sales": 5744
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Summer",
+        "Sales": 5502
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Organic Staples",
+        "Season": "Winter",
+        "Sales": 5443
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Mutton",
+        "Season": "Monsoon",
+        "Sales": 5234
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Chicken",
+        "Season": "Winter",
+        "Sales": 4972
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Cookies",
+        "Season": "Autumn",
+        "Sales": 4903
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Spices",
+        "Season": "Summer",
+        "Sales": 4856
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Eggs",
+        "Season": "Monsoon",
+        "Sales": 4543
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Organic Fruits",
+        "Season": "Monsoon",
+        "Sales": 4060
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Rice",
+        "Season": "Monsoon",
+        "Sales": 3382
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Atta & Flour",
+        "Season": "Winter",
+        "Sales": 2332
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Autumn",
+        "Sales": 1899
+    },
+    {
+        "City": "Salem",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Summer",
+        "Sales": 1774
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Breads & Buns",
+        "Season": "Monsoon",
+        "Sales": 10830
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Mutton",
+        "Season": "Monsoon",
+        "Sales": 8050
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Health Drinks",
+        "Season": "Autumn",
+        "Sales": 7853
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Masalas",
+        "Season": "Summer",
+        "Sales": 6773
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Monsoon",
+        "Sales": 6491
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Cakes",
+        "Season": "Monsoon",
+        "Sales": 6480
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Organic Staples",
+        "Season": "Monsoon",
+        "Sales": 6446
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Chocolates",
+        "Season": "Monsoon",
+        "Sales": 6297
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Summer",
+        "Sales": 5698
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Chicken",
+        "Season": "Summer",
+        "Sales": 5425
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Eggs",
+        "Season": "Winter",
+        "Sales": 4907
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Cookies",
+        "Season": "Monsoon",
+        "Sales": 4850
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Organic Fruits",
+        "Season": "Autumn",
+        "Sales": 4347
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Monsoon",
+        "Sales": 4347
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Autumn",
+        "Sales": 4176
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Fish",
+        "Season": "Monsoon",
+        "Sales": 4011
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Atta & Flour",
+        "Season": "Monsoon",
+        "Sales": 3807
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Spices",
+        "Season": "Autumn",
+        "Sales": 3342
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Autumn",
+        "Sales": 2995
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Biscuits",
+        "Season": "Winter",
+        "Sales": 2932
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Soft Drinks",
+        "Season": "Monsoon",
+        "Sales": 2581
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 2542
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Sub Category": "Rice",
+        "Season": "Monsoon",
+        "Sales": 2422
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Soft Drinks",
+        "Season": "Summer",
+        "Sales": 14182
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Masalas",
+        "Season": "Summer",
+        "Sales": 11419
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Health Drinks",
+        "Season": "Winter",
+        "Sales": 11053
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Monsoon",
+        "Sales": 8635
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Spices",
+        "Season": "Autumn",
+        "Sales": 8542
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 8267
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Mutton",
+        "Season": "Winter",
+        "Sales": 8211
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Monsoon",
+        "Sales": 6951
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Organic Staples",
+        "Season": "Autumn",
+        "Sales": 6661
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Cakes",
+        "Season": "Monsoon",
+        "Sales": 6610
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Fish",
+        "Season": "Monsoon",
+        "Sales": 6204
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Cookies",
+        "Season": "Winter",
+        "Sales": 6156
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Autumn",
+        "Sales": 5561
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Monsoon",
+        "Sales": 5515
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Chicken",
+        "Season": "Autumn",
+        "Sales": 5405
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Breads & Buns",
+        "Season": "Autumn",
+        "Sales": 5277
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Eggs",
+        "Season": "Monsoon",
+        "Sales": 4668
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Rice",
+        "Season": "Monsoon",
+        "Sales": 4465
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Organic Fruits",
+        "Season": "Summer",
+        "Sales": 4177
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Atta & Flour",
+        "Season": "Summer",
+        "Sales": 3893
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Biscuits",
+        "Season": "Monsoon",
+        "Sales": 3423
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Chocolates",
+        "Season": "Winter",
+        "Sales": 2919
+    },
+    {
+        "City": "Pudukottai",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Winter",
+        "Sales": 2166
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Soft Drinks",
+        "Season": "Autumn",
+        "Sales": 10589
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Noodles",
+        "Season": "Winter",
+        "Sales": 8398
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Cookies",
+        "Season": "Monsoon",
+        "Sales": 7136
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Chicken",
+        "Season": "Autumn",
+        "Sales": 7008
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Masalas",
+        "Season": "Monsoon",
+        "Sales": 6127
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Cakes",
+        "Season": "Summer",
+        "Sales": 6080
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Rice",
+        "Season": "Monsoon",
+        "Sales": 5787
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Winter",
+        "Sales": 5369
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Monsoon",
+        "Sales": 5253
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Atta & Flour",
+        "Season": "Monsoon",
+        "Sales": 4774
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Eggs",
+        "Season": "Monsoon",
+        "Sales": 4700
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Chocolates",
+        "Season": "Monsoon",
+        "Sales": 4604
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Mutton",
+        "Season": "Winter",
+        "Sales": 4556
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Biscuits",
+        "Season": "Monsoon",
+        "Sales": 4088
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Fish",
+        "Season": "Autumn",
+        "Sales": 3777
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Monsoon",
+        "Sales": 3743
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Breads & Buns",
+        "Season": "Autumn",
+        "Sales": 3594
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Spices",
+        "Season": "Monsoon",
+        "Sales": 3585
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Organic Fruits",
+        "Season": "Monsoon",
+        "Sales": 2970
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Organic Staples",
+        "Season": "Summer",
+        "Sales": 2849
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Health Drinks",
+        "Season": "Monsoon",
+        "Sales": 2769
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Winter",
+        "Sales": 1812
+    },
+    {
+        "City": "Perambalur",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Summer",
+        "Sales": 1182
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Organic Staples",
+        "Season": "Autumn",
+        "Sales": 9329
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Chicken",
+        "Season": "Monsoon",
+        "Sales": 8760
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 8179
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Spices",
+        "Season": "Monsoon",
+        "Sales": 8134
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Breads & Buns",
+        "Season": "Monsoon",
+        "Sales": 7288
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Health Drinks",
+        "Season": "Monsoon",
+        "Sales": 6941
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Monsoon",
+        "Sales": 5790
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Cookies",
+        "Season": "Monsoon",
+        "Sales": 5615
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Monsoon",
+        "Sales": 5608
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Autumn",
+        "Sales": 5403
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Masalas",
+        "Season": "Autumn",
+        "Sales": 5206
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Eggs",
+        "Season": "Winter",
+        "Sales": 5176
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Mutton",
+        "Season": "Monsoon",
+        "Sales": 4765
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Chocolates",
+        "Season": "Summer",
+        "Sales": 4604
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Rice",
+        "Season": "Monsoon",
+        "Sales": 4573
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Atta & Flour",
+        "Season": "Monsoon",
+        "Sales": 4559
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Biscuits",
+        "Season": "Winter",
+        "Sales": 4485
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Fish",
+        "Season": "Monsoon",
+        "Sales": 4407
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Organic Fruits",
+        "Season": "Summer",
+        "Sales": 3719
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Summer",
+        "Sales": 3316
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Soft Drinks",
+        "Season": "Winter",
+        "Sales": 3081
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Autumn",
+        "Sales": 2698
+    },
+    {
+        "City": "Ooty",
+        "Sub Category": "Cakes",
+        "Season": "Winter",
+        "Sales": 2170
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Breads & Buns",
+        "Season": "Monsoon",
+        "Sales": 10614
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 10057
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Soft Drinks",
+        "Season": "Winter",
+        "Sales": 8351
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Mutton",
+        "Season": "Winter",
+        "Sales": 7185
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Cakes",
+        "Season": "Monsoon",
+        "Sales": 7148
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Autumn",
+        "Sales": 6398
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Masalas",
+        "Season": "Summer",
+        "Sales": 5731
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Spices",
+        "Season": "Summer",
+        "Sales": 5646
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Chocolates",
+        "Season": "Monsoon",
+        "Sales": 5050
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Health Drinks",
+        "Season": "Winter",
+        "Sales": 4847
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Winter",
+        "Sales": 4550
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Fish",
+        "Season": "Autumn",
+        "Sales": 4361
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Eggs",
+        "Season": "Monsoon",
+        "Sales": 4346
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Atta & Flour",
+        "Season": "Monsoon",
+        "Sales": 4295
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Biscuits",
+        "Season": "Monsoon",
+        "Sales": 4275
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Monsoon",
+        "Sales": 4267
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Autumn",
+        "Sales": 3896
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Organic Staples",
+        "Season": "Autumn",
+        "Sales": 3837
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Cookies",
+        "Season": "Monsoon",
+        "Sales": 3437
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Autumn",
+        "Sales": 2772
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Organic Fruits",
+        "Season": "Summer",
+        "Sales": 2404
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Rice",
+        "Season": "Autumn",
+        "Sales": 2355
+    },
+    {
+        "City": "Namakkal",
+        "Sub Category": "Chicken",
+        "Season": "Autumn",
+        "Sales": 2172
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Cakes",
+        "Season": "Winter",
+        "Sales": 11176
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Masalas",
+        "Season": "Autumn",
+        "Sales": 8612
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Eggs",
+        "Season": "Monsoon",
+        "Sales": 7442
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 7369
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Health Drinks",
+        "Season": "Monsoon",
+        "Sales": 7222
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Soft Drinks",
+        "Season": "Winter",
+        "Sales": 5421
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Organic Fruits",
+        "Season": "Monsoon",
+        "Sales": 4761
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Autumn",
+        "Sales": 4626
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Monsoon",
+        "Sales": 4446
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Organic Staples",
+        "Season": "Monsoon",
+        "Sales": 4438
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Atta & Flour",
+        "Season": "Autumn",
+        "Sales": 4296
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Spices",
+        "Season": "Monsoon",
+        "Sales": 4205
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Autumn",
+        "Sales": 4026
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Rice",
+        "Season": "Autumn",
+        "Sales": 3801
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Summer",
+        "Sales": 3761
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Fish",
+        "Season": "Monsoon",
+        "Sales": 3680
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Chocolates",
+        "Season": "Summer",
+        "Sales": 3653
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Breads & Buns",
+        "Season": "Monsoon",
+        "Sales": 3575
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Cookies",
+        "Season": "Summer",
+        "Sales": 3261
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Chicken",
+        "Season": "Monsoon",
+        "Sales": 3227
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Mutton",
+        "Season": "Winter",
+        "Sales": 3219
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Autumn",
+        "Sales": 2808
+    },
+    {
+        "City": "Nagercoil",
+        "Sub Category": "Biscuits",
+        "Season": "Winter",
+        "Sales": 2686
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Chicken",
+        "Season": "Monsoon",
+        "Sales": 12521
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Monsoon",
+        "Sales": 9052
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Spices",
+        "Season": "Monsoon",
+        "Sales": 8608
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Health Drinks",
+        "Season": "Autumn",
+        "Sales": 8335
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Masalas",
+        "Season": "Winter",
+        "Sales": 8108
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Fish",
+        "Season": "Monsoon",
+        "Sales": 7763
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Mutton",
+        "Season": "Monsoon",
+        "Sales": 7132
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Eggs",
+        "Season": "Summer",
+        "Sales": 7012
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Breads & Buns",
+        "Season": "Summer",
+        "Sales": 6392
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Winter",
+        "Sales": 6100
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Atta & Flour",
+        "Season": "Monsoon",
+        "Sales": 5832
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Summer",
+        "Sales": 5497
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Chocolates",
+        "Season": "Autumn",
+        "Sales": 5333
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Soft Drinks",
+        "Season": "Monsoon",
+        "Sales": 5327
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Cookies",
+        "Season": "Monsoon",
+        "Sales": 4646
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Noodles",
+        "Season": "Summer",
+        "Sales": 4243
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Cakes",
+        "Season": "Autumn",
+        "Sales": 4035
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Autumn",
+        "Sales": 3558
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Autumn",
+        "Sales": 3526
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Rice",
+        "Season": "Monsoon",
+        "Sales": 3264
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Organic Fruits",
+        "Season": "Winter",
+        "Sales": 2435
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Biscuits",
+        "Season": "Autumn",
+        "Sales": 2414
+    },
+    {
+        "City": "Madurai",
+        "Sub Category": "Organic Staples",
+        "Season": "Monsoon",
+        "Sales": 1921
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Chicken",
+        "Season": "Monsoon",
+        "Sales": 11163
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Mutton",
+        "Season": "Monsoon",
+        "Sales": 9435
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Biscuits",
+        "Season": "Autumn",
+        "Sales": 9243
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Rice",
+        "Season": "Winter",
+        "Sales": 8632
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Soft Drinks",
+        "Season": "Winter",
+        "Sales": 8457
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Masalas",
+        "Season": "Autumn",
+        "Sales": 8044
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 7925
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Breads & Buns",
+        "Season": "Monsoon",
+        "Sales": 7088
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Monsoon",
+        "Sales": 6291
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Chocolates",
+        "Season": "Monsoon",
+        "Sales": 6062
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Health Drinks",
+        "Season": "Monsoon",
+        "Sales": 5791
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Cakes",
+        "Season": "Monsoon",
+        "Sales": 5786
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Atta & Flour",
+        "Season": "Winter",
+        "Sales": 5181
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Winter",
+        "Sales": 5141
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Fish",
+        "Season": "Monsoon",
+        "Sales": 4959
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Cookies",
+        "Season": "Autumn",
+        "Sales": 4504
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Monsoon",
+        "Sales": 4270
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Winter",
+        "Sales": 3061
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Spices",
+        "Season": "Monsoon",
+        "Sales": 3041
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Organic Fruits",
+        "Season": "Monsoon",
+        "Sales": 3010
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Organic Staples",
+        "Season": "Monsoon",
+        "Sales": 2609
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Eggs",
+        "Season": "Monsoon",
+        "Sales": 1896
+    },
+    {
+        "City": "Krishnagiri",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Winter",
+        "Sales": 1336
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Health Drinks",
+        "Season": "Monsoon",
+        "Sales": 8866
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Eggs",
+        "Season": "Monsoon",
+        "Sales": 7740
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Noodles",
+        "Season": "Winter",
+        "Sales": 7504
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Mutton",
+        "Season": "Monsoon",
+        "Sales": 7354
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Spices",
+        "Season": "Monsoon",
+        "Sales": 6869
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Soft Drinks",
+        "Season": "Monsoon",
+        "Sales": 6743
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Atta & Flour",
+        "Season": "Monsoon",
+        "Sales": 6724
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Breads & Buns",
+        "Season": "Monsoon",
+        "Sales": 6337
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Cookies",
+        "Season": "Monsoon",
+        "Sales": 5875
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Masalas",
+        "Season": "Monsoon",
+        "Sales": 5749
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Monsoon",
+        "Sales": 5609
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Autumn",
+        "Sales": 5337
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Fish",
+        "Season": "Monsoon",
+        "Sales": 5119
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Organic Staples",
+        "Season": "Autumn",
+        "Sales": 4866
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Chocolates",
+        "Season": "Monsoon",
+        "Sales": 4691
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Biscuits",
+        "Season": "Monsoon",
+        "Sales": 4500
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Monsoon",
+        "Sales": 4435
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Rice",
+        "Season": "Monsoon",
+        "Sales": 4239
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Cakes",
+        "Season": "Autumn",
+        "Sales": 4155
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Chicken",
+        "Season": "Summer",
+        "Sales": 3724
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Summer",
+        "Sales": 3648
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Organic Fruits",
+        "Season": "Autumn",
+        "Sales": 3204
+    },
+    {
+        "City": "Karur",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Monsoon",
+        "Sales": 2994
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Cookies",
+        "Season": "Monsoon",
+        "Sales": 10311
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Health Drinks",
+        "Season": "Autumn",
+        "Sales": 8177
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Rice",
+        "Season": "Monsoon",
+        "Sales": 7247
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Spices",
+        "Season": "Monsoon",
+        "Sales": 6933
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Mutton",
+        "Season": "Winter",
+        "Sales": 6885
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Monsoon",
+        "Sales": 6748
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Cakes",
+        "Season": "Monsoon",
+        "Sales": 6642
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Masalas",
+        "Season": "Autumn",
+        "Sales": 6356
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Biscuits",
+        "Season": "Summer",
+        "Sales": 6331
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 6148
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Fish",
+        "Season": "Summer",
+        "Sales": 6125
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Breads & Buns",
+        "Season": "Autumn",
+        "Sales": 5907
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Winter",
+        "Sales": 5535
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Monsoon",
+        "Sales": 5302
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Autumn",
+        "Sales": 4911
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Chocolates",
+        "Season": "Summer",
+        "Sales": 4797
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Summer",
+        "Sales": 4357
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Organic Staples",
+        "Season": "Autumn",
+        "Sales": 4177
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Chicken",
+        "Season": "Winter",
+        "Sales": 4134
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Soft Drinks",
+        "Season": "Summer",
+        "Sales": 2874
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Organic Fruits",
+        "Season": "Summer",
+        "Sales": 2448
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Eggs",
+        "Season": "Summer",
+        "Sales": 2065
+    },
+    {
+        "City": "Kanyakumari",
+        "Sub Category": "Atta & Flour",
+        "Season": "Autumn",
+        "Sales": 1073
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Chocolates",
+        "Season": "Monsoon",
+        "Sales": 11301
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Health Drinks",
+        "Season": "Autumn",
+        "Sales": 8123
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Soft Drinks",
+        "Season": "Autumn",
+        "Sales": 7774
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Autumn",
+        "Sales": 7738
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Breads & Buns",
+        "Season": "Summer",
+        "Sales": 7477
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Cookies",
+        "Season": "Monsoon",
+        "Sales": 7222
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Biscuits",
+        "Season": "Autumn",
+        "Sales": 7136
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Chicken",
+        "Season": "Summer",
+        "Sales": 6322
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Winter",
+        "Sales": 6011
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Cakes",
+        "Season": "Monsoon",
+        "Sales": 5519
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Summer",
+        "Sales": 5505
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Monsoon",
+        "Sales": 5155
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Organic Staples",
+        "Season": "Monsoon",
+        "Sales": 4250
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Atta & Flour",
+        "Season": "Monsoon",
+        "Sales": 4205
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Noodles",
+        "Season": "Summer",
+        "Sales": 4134
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Masalas",
+        "Season": "Winter",
+        "Sales": 3609
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Spices",
+        "Season": "Winter",
+        "Sales": 3470
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Organic Fruits",
+        "Season": "Monsoon",
+        "Sales": 2861
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Fish",
+        "Season": "Summer",
+        "Sales": 2681
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Winter",
+        "Sales": 2535
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Mutton",
+        "Season": "Winter",
+        "Sales": 2191
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Rice",
+        "Season": "Autumn",
+        "Sales": 1672
+    },
+    {
+        "City": "Dindigul",
+        "Sub Category": "Eggs",
+        "Season": "Summer",
+        "Sales": 1507
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Organic Fruits",
+        "Season": "Monsoon",
+        "Sales": 10027
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Cookies",
+        "Season": "Winter",
+        "Sales": 7569
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Cakes",
+        "Season": "Monsoon",
+        "Sales": 7531
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Organic Staples",
+        "Season": "Monsoon",
+        "Sales": 7476
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Health Drinks",
+        "Season": "Monsoon",
+        "Sales": 6617
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Fish",
+        "Season": "Winter",
+        "Sales": 5958
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Mutton",
+        "Season": "Monsoon",
+        "Sales": 5649
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Soft Drinks",
+        "Season": "Autumn",
+        "Sales": 5191
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Winter",
+        "Sales": 5020
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Winter",
+        "Sales": 4592
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Summer",
+        "Sales": 4545
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Noodles",
+        "Season": "Autumn",
+        "Sales": 3980
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Chicken",
+        "Season": "Autumn",
+        "Sales": 3950
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Biscuits",
+        "Season": "Monsoon",
+        "Sales": 3827
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Breads & Buns",
+        "Season": "Monsoon",
+        "Sales": 3250
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Rice",
+        "Season": "Winter",
+        "Sales": 3216
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Spices",
+        "Season": "Summer",
+        "Sales": 3194
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Monsoon",
+        "Sales": 2978
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Masalas",
+        "Season": "Monsoon",
+        "Sales": 2853
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Atta & Flour",
+        "Season": "Winter",
+        "Sales": 2637
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Eggs",
+        "Season": "Winter",
+        "Sales": 2499
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Chocolates",
+        "Season": "Monsoon",
+        "Sales": 2301
+    },
+    {
+        "City": "Dharmapuri",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Winter",
+        "Sales": 2019
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Soft Drinks",
+        "Season": "Monsoon",
+        "Sales": 12531
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Breads & Buns",
+        "Season": "Monsoon",
+        "Sales": 12324
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Chicken",
+        "Season": "Autumn",
+        "Sales": 6800
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Fish",
+        "Season": "Monsoon",
+        "Sales": 6408
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Atta & Flour",
+        "Season": "Monsoon",
+        "Sales": 6064
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Masalas",
+        "Season": "Autumn",
+        "Sales": 6045
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Mutton",
+        "Season": "Autumn",
+        "Sales": 5424
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Autumn",
+        "Sales": 5377
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Health Drinks",
+        "Season": "Monsoon",
+        "Sales": 4787
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Monsoon",
+        "Sales": 4642
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Autumn",
+        "Sales": 4540
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Cookies",
+        "Season": "Winter",
+        "Sales": 4274
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Cakes",
+        "Season": "Monsoon",
+        "Sales": 4273
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Biscuits",
+        "Season": "Monsoon",
+        "Sales": 3932
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Chocolates",
+        "Season": "Winter",
+        "Sales": 3861
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Eggs",
+        "Season": "Autumn",
+        "Sales": 3849
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Spices",
+        "Season": "Winter",
+        "Sales": 3498
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 3179
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Monsoon",
+        "Sales": 2993
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Rice",
+        "Season": "Summer",
+        "Sales": 2789
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Organic Staples",
+        "Season": "Monsoon",
+        "Sales": 2472
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Autumn",
+        "Sales": 1963
+    },
+    {
+        "City": "Cumbum",
+        "Sub Category": "Organic Fruits",
+        "Season": "Winter",
+        "Sales": 1691
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Monsoon",
+        "Sales": 10275
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Cakes",
+        "Season": "Monsoon",
+        "Sales": 9846
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Chicken",
+        "Season": "Monsoon",
+        "Sales": 9082
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Noodles",
+        "Season": "Autumn",
+        "Sales": 8326
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Soft Drinks",
+        "Season": "Winter",
+        "Sales": 7737
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Health Drinks",
+        "Season": "Summer",
+        "Sales": 7020
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Winter",
+        "Sales": 6425
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Chocolates",
+        "Season": "Autumn",
+        "Sales": 6374
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Biscuits",
+        "Season": "Summer",
+        "Sales": 6267
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Breads & Buns",
+        "Season": "Autumn",
+        "Sales": 5850
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Mutton",
+        "Season": "Autumn",
+        "Sales": 5703
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Atta & Flour",
+        "Season": "Autumn",
+        "Sales": 5526
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Masalas",
+        "Season": "Winter",
+        "Sales": 5198
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Fish",
+        "Season": "Monsoon",
+        "Sales": 4674
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Eggs",
+        "Season": "Summer",
+        "Sales": 4617
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Autumn",
+        "Sales": 4284
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Spices",
+        "Season": "Monsoon",
+        "Sales": 4271
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Rice",
+        "Season": "Monsoon",
+        "Sales": 4224
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Organic Fruits",
+        "Season": "Monsoon",
+        "Sales": 3799
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Organic Staples",
+        "Season": "Summer",
+        "Sales": 3467
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Cookies",
+        "Season": "Summer",
+        "Sales": 2979
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Monsoon",
+        "Sales": 2806
+    },
+    {
+        "City": "Coimbatore",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Autumn",
+        "Sales": 1656
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 9922
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Spices",
+        "Season": "Monsoon",
+        "Sales": 9172
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Winter",
+        "Sales": 7951
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Health Drinks",
+        "Season": "Monsoon",
+        "Sales": 7145
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Monsoon",
+        "Sales": 6880
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Chicken",
+        "Season": "Monsoon",
+        "Sales": 6612
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Masalas",
+        "Season": "Monsoon",
+        "Sales": 6467
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Winter",
+        "Sales": 6269
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Mutton",
+        "Season": "Autumn",
+        "Sales": 6261
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Soft Drinks",
+        "Season": "Winter",
+        "Sales": 5843
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Cookies",
+        "Season": "Monsoon",
+        "Sales": 5807
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Eggs",
+        "Season": "Winter",
+        "Sales": 5268
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Cakes",
+        "Season": "Winter",
+        "Sales": 4973
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Breads & Buns",
+        "Season": "Monsoon",
+        "Sales": 4488
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Organic Fruits",
+        "Season": "Monsoon",
+        "Sales": 4390
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Winter",
+        "Sales": 4369
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Summer",
+        "Sales": 4267
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Atta & Flour",
+        "Season": "Monsoon",
+        "Sales": 3948
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Chocolates",
+        "Season": "Winter",
+        "Sales": 3599
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Biscuits",
+        "Season": "Autumn",
+        "Sales": 2936
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Fish",
+        "Season": "Winter",
+        "Sales": 2862
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Rice",
+        "Season": "Autumn",
+        "Sales": 2454
+    },
+    {
+        "City": "Chennai",
+        "Sub Category": "Organic Staples",
+        "Season": "Summer",
+        "Sales": 2327
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Health Drinks",
+        "Season": "Summer",
+        "Sales": 10637
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Dals & Pulses",
+        "Season": "Monsoon",
+        "Sales": 10038
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Masalas",
+        "Season": "Summer",
+        "Sales": 8029
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Noodles",
+        "Season": "Monsoon",
+        "Sales": 7390
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Fish",
+        "Season": "Autumn",
+        "Sales": 7136
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Cookies",
+        "Season": "Winter",
+        "Sales": 7032
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Fresh Fruits",
+        "Season": "Winter",
+        "Sales": 6978
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Soft Drinks",
+        "Season": "Winter",
+        "Sales": 6866
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Biscuits",
+        "Season": "Summer",
+        "Sales": 6588
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Spices",
+        "Season": "Monsoon",
+        "Sales": 6117
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Chicken",
+        "Season": "Summer",
+        "Sales": 5753
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Chocolates",
+        "Season": "Monsoon",
+        "Sales": 5523
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Cakes",
+        "Season": "Autumn",
+        "Sales": 5265
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Fresh Vegetables",
+        "Season": "Winter",
+        "Sales": 5193
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Organic Staples",
+        "Season": "Monsoon",
+        "Sales": 4487
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Eggs",
+        "Season": "Summer",
+        "Sales": 4446
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Rice",
+        "Season": "Monsoon",
+        "Sales": 4237
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Organic Vegetables",
+        "Season": "Summer",
+        "Sales": 4161
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Organic Fruits",
+        "Season": "Summer",
+        "Sales": 4016
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Breads & Buns",
+        "Season": "Winter",
+        "Sales": 3639
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Edible Oil & Ghee",
+        "Season": "Autumn",
+        "Sales": 3375
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Atta & Flour",
+        "Season": "Monsoon",
+        "Sales": 3203
+    },
+    {
+        "City": "Bodi",
+        "Sub Category": "Mutton",
+        "Season": "Summer",
+        "Sales": 3161
+    }
+]

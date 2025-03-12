@@ -1,0 +1,55 @@
+#Predict future Sales using ARIMA  for west region only
+import pandas as pd
+from statsmodels.tsa.arima.model import ARIMA
+import matplotlib.pyplot as plt
+
+# Load the dataset (replace 'data.csv' with your file path)
+df = pd.read_csv('dataset4.csv')
+
+# Convert 'Order Date' to datetime and extract Year and Month
+df['Order Date'] = pd.to_datetime(df['Order Date'], errors='coerce')
+df['Year'] = df['Order Date'].dt.year
+df['Month'] = df['Order Date'].dt.month
+
+# Aggregate sales data by City and Year
+city_sales_per_year = df.groupby(['City', 'Year'])['Sales'].sum().reset_index()
+
+# Forecast for each city using ARIMA
+forecast_results = {}
+
+for city in city_sales_per_year['City'].unique():
+    city_data = city_sales_per_year[city_sales_per_year['City'] == city]
+
+    # Set the Year column as the index
+    city_data.set_index('Year', inplace=True)
+
+    # Build ARIMA model
+    model = ARIMA(city_data['Sales'], order=(5,1,0))  # (p,d,q) can be tuned based on analysis
+    model_fit = model.fit()
+
+    # Ensure steps is an integer
+    forecast_steps = 3  # Forecast for the next 3 years
+    forecast = model_fit.forecast(steps=int(forecast_steps))  # Forecast for the next 3 years
+
+    # Store forecast results
+    forecast_results[city] = forecast
+
+    # Optional: Plot the forecast
+    # plt.figure(figsize=(10, 6))
+    # plt.plot(city_data.index, city_data['Sales'], label='Historical Sales')
+
+    # Correcting the range by extracting the last year as an integer
+    last_year = int(city_data.index[-1])  # Extract the last year as an integer
+    # plt.plot(range(last_year + 1, last_year + 1 + forecast_steps), forecast, label='Forecasted Sales', color='red')
+
+    # plt.title(f'Sales Forecast for {city}')
+    # plt.xlabel('Year')
+    # plt.ylabel('Sales')
+    # plt.legend()
+    # plt.show()
+
+# Print forecast results for all cities
+for city, forecast in forecast_results.items():
+    print(f"Sales forecast for {city}:")
+    for i, sales in enumerate(forecast, 1):
+        print(f"Year {2018+i}: {sales}")

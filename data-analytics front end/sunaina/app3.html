@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Subcategories by Profit for Each City</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Top Subcategories by Profit for Each City</h1>
+
+    <h2>Graphical Representation of Top Subcategories</h2>
+
+    <img id="top-subcategories-plot" src="" alt="Top Subcategories by Profit" style="display:none;">
+
+    <h2>Sales Data for Top Subcategories</h2>
+    <p>The following table shows the top subcategories by profit for each city:</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Sub Category</th>
+                <th>Total Sales</th>
+                <th>Total Profit</th>
+                <th>Order Frequency</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be populated dynamically -->
+        </tbody>
+    </table>
+
+    <script>
+        // Fetch the JSON data
+        fetch('top_subcategories_by_city.json')
+            .then(response => response.json())
+            .then(data => {
+                // Display the plot
+                document.getElementById('top-subcategories-plot').src = data.plot;
+                document.getElementById('top-subcategories-plot').style.display = 'block';
+
+                // Populate the table with the city-subcategory data
+                const tableBody = document.querySelector('table tbody');
+                tableBody.innerHTML = ''; // Clear existing table rows
+                data.city_subcategory.forEach(row => {
+                    const tr = document.createElement('tr');
+                    const tdCity = document.createElement('td');
+                    tdCity.textContent = row.City;
+                    const tdSubCategory = document.createElement('td');
+                    tdSubCategory.textContent = row['Sub Category'];
+                    const tdSales = document.createElement('td');
+                    tdSales.textContent = row.Sales;
+                    const tdProfit = document.createElement('td');
+                    tdProfit.textContent = row.Profit;
+                    const tdFrequency = document.createElement('td');
+                    tdFrequency.textContent = row.Frequency;
+                    tr.appendChild(tdCity);
+                    tr.appendChild(tdSubCategory);
+                    tr.appendChild(tdSales);
+                    tr.appendChild(tdProfit);
+                    tr.appendChild(tdFrequency);
+                    tableBody.appendChild(tr);
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+</body>
+</html>

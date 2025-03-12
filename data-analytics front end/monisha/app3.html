@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Spending Customers</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        canvas {
+            max-width: 100%;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>High Spending Customers by Region</h1>
+    <canvas id="customerChart"></canvas>
+    <script>
+        // Load the data from the JSON file
+        fetch('high_spending_data.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Debug: Log data to ensure it's being read correctly
+                console.log('Loaded data:', data);
+
+                // Extract labels and values
+                const labels = data.map(item => `${item.City} - ${item.Region}`);
+                const values = data.map(item => item.HighSpendingCustomerCount);
+
+                // Check if values are valid numbers
+                console.log('Labels:', labels);
+                console.log('Values:', values);
+
+                // Render the bar chart
+                const ctx = document.getElementById('customerChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'High-Spending Customer Count',
+                            data: values,
+                            backgroundColor: 'pink',
+                            borderColor: 'red',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            x: {
+                                ticks: {
+                                    autoSkip: false,
+                                    maxRotation: 45,
+                                    minRotation: 45
+                                }
+                            },
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Error loading or processing data:', error);
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Forecast for West Region</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        canvas {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sales Forecast for West Region</h1>
+
+        <!-- Table to display forecast data -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Forecasted Sales</th>
+                </tr>
+            </thead>
+            <tbody id="forecast-table">
+                <!-- Forecast data rows will be dynamically inserted here -->
+            </tbody>
+        </table>
+
+        <!-- Chart for forecast visualization -->
+        <canvas id="forecastChart"></canvas>
+    </div>
+
+    <script>
+        // Load forecast data from JSON file
+        fetch('west_sales_forecast.json')
+            .then(response => response.json())
+            .then(data => {
+                // Populate the table
+                const tableBody = document.getElementById('forecast-table');
+                data.forEach(row => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `<td>${row.Year}</td><td>${row.Sales.toFixed(2)}</td>`;
+                    tableBody.appendChild(tr);
+                });
+
+                // Prepare data for the chart
+                const years = data.map(row => row.Year);
+                const sales = data.map(row => row.Sales);
+
+                // Render the chart
+                const ctx = document.getElementById('forecastChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: years,
+                        datasets: [{
+                            label: 'Forecasted Sales',
+                            data: sales,
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            fill: true
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: {
+                                display: true,
+                                position: 'top'
+                            }
+                        },
+                        scales: {
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: 'Year'
+                                }
+                            },
+                            y: {
+                                title: {
+                                    display: true,
+                                    text: 'Sales'
+                                },
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Error loading or processing forecast data:', error);
+                alert('Failed to load forecast data. Please check the console for more details.');
+            });
+    </script>
+</body>
+</html>

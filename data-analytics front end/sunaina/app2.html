@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Analysis by Region</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sales Analysis by Region</h1>
+
+    <h2>Visualization of Sales Metrics</h2>
+
+    <h3>Total Sales by Region</h3>
+    <img id="total-sales-plot" src="" alt="Total Sales by Region" style="display:none;">
+
+    <h3>Average Sales by Region</h3>
+    <img id="average-sales-plot" src="" alt="Average Sales by Region" style="display:none;">
+
+    <h3>Number of Orders by Region</h3>
+    <img id="num-orders-plot" src="" alt="Number of Orders by Region" style="display:none;">
+
+    <h2>Sales Data</h2>
+    <p>The following table shows the sales analysis by region:</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Region</th>
+                <th>Total Sales</th>
+                <th>Average Sales</th>
+                <th>Number of Orders</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be populated dynamically -->
+        </tbody>
+    </table>
+
+    <script>
+        // Fetch the JSON data
+        fetch('region_sales_analysis.json')
+            .then(response => response.json())
+            .then(data => {
+                // Display the performance plots
+                document.getElementById('total-sales-plot').src = data.plots.total_sales;
+                document.getElementById('total-sales-plot').style.display = 'block';
+
+                document.getElementById('average-sales-plot').src = data.plots.average_sales;
+                document.getElementById('average-sales-plot').style.display = 'block';
+
+                document.getElementById('num-orders-plot').src = data.plots.num_orders;
+                document.getElementById('num-orders-plot').style.display = 'block';
+
+                // Populate the table with the region sales data
+                const tableBody = document.querySelector('table tbody');
+                tableBody.innerHTML = ''; // Clear existing table rows
+                data.region_sales.forEach(row => {
+                    const tr = document.createElement('tr');
+                    const tdRegion = document.createElement('td');
+                    tdRegion.textContent = row.Region;
+                    const tdTotalSales = document.createElement('td');
+                    tdTotalSales.textContent = row.total_sales;
+                    const tdAverageSales = document.createElement('td');
+                    tdAverageSales.textContent = row.average_sales;
+                    const tdNumOrders = document.createElement('td');
+                    tdNumOrders.textContent = row.num_orders;
+                    tr.appendChild(tdRegion);
+                    tr.appendChild(tdTotalSales);
+                    tr.appendChild(tdAverageSales);
+                    tr.appendChild(tdNumOrders);
+                    tableBody.appendChild(tr);
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+</body>
+</html>

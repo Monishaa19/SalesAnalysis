@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecasted Sales (2019-2021)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Forecasted Sales (2019-2021) by Sub Category</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Sub Category</th>
+                <th>Year</th>
+                <th>Forecasted Sales</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be dynamically populated here -->
+        </tbody>
+    </table>
+
+    <script>
+        // Fetch the JSON data
+        fetch('forecast_results.json')
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = document.querySelector('table tbody');
+                tableBody.innerHTML = ''; // Clear existing rows
+
+                // Populate the table with forecast results
+                for (const subCategory in data) {
+                    const forecasts = data[subCategory];
+                    for (const year in forecasts) {
+                        const tr = document.createElement('tr');
+                        const tdSubCategory = document.createElement('td');
+                        tdSubCategory.textContent = subCategory;
+                        const tdYear = document.createElement('td');
+                        tdYear.textContent = year;
+                        const tdSales = document.createElement('td');
+                        tdSales.textContent = forecasts[year].toFixed(2);
+
+                        tr.appendChild(tdSubCategory);
+                        tr.appendChild(tdYear);
+                        tr.appendChild(tdSales);
+                        tableBody.appendChild(tr);
+                    }
+                }
+            })
+            .catch(error => console.error('Error fetching forecast results:', error));
+    </script>
+</body>
+</html>

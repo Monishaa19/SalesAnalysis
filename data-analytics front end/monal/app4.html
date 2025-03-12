@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Frequency Distribution</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        canvas {
+            margin: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Order Frequency Distribution</h1>
+<canvas id="orderFrequencyHistogram" width="600" height="400"></canvas>
+
+<script>
+    // Fetch the JSON file
+    fetch('customer_analysis_results.json')
+        .then(response => response.json())
+        .then(data => {
+            // Extract Order Frequency data
+            const orderFrequency = data['Number of Orders'];
+
+            // Prepare histogram data
+            const values = Object.values(orderFrequency); // Number of orders
+            const labels = [...new Set(values)].sort((a, b) => a - b); // Unique sorted order frequencies
+            const bins = Array(labels.length).fill(0);
+
+            // Create bins for the histogram
+            values.forEach(value => {
+                const index = labels.indexOf(value);
+                if (index !== -1) bins[index]++;
+            });
+
+            // Create the histogram using Chart.js
+            const ctx = document.getElementById('orderFrequencyHistogram').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Frequency',
+                        data: bins,
+                        backgroundColor: 'skyblue',
+                        borderColor: 'black',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: function(tooltipItem) {
+                                    return `Frequency: ${tooltipItem.raw}`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: { display: true, text: 'Days Between Orders' },
+                            ticks: { autoSkip: true, maxTicksLimit: 10 }
+                        },
+                        y: {
+                            title: { display: true, text: 'Frequency' },
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        })
+        .catch(error => console.error('Error fetching JSON:', error));
+</script>
+
+</body>
+</html>

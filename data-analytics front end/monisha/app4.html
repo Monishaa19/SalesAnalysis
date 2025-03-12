@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demand Increase Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Demand Increase Analysis by City, Subcategory, and Season</h1>
+    <table id="demandTable">
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Subcategory</th>
+                <th>Season</th>
+                <th>Sales</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data rows will be inserted here by JavaScript -->
+        </tbody>
+    </table>
+</div>
+
+<script>
+// Fetch the JSON data from the file
+fetch('demand_increase_sales.json')
+    .then(response => response.json())
+    .then(data => {
+        // Get the demand table body element
+        const tableBody = document.getElementById('demandTable').getElementsByTagName('tbody')[0];
+
+        // Sort the data by City and then by Sales
+        data.sort((a, b) => a.City.localeCompare(b.City) || b.Sales - a.Sales);
+
+        // Limit to top 2 results per city
+        const cityCounts = {};
+
+        data.forEach(row => {
+            if (!cityCounts[row.City]) {
+                cityCounts[row.City] = 0;
+            }
+
+            if (cityCounts[row.City] < 2) {
+                // Create a new row and add it to the table
+                const newRow = tableBody.insertRow();
+
+                const cell1 = newRow.insertCell(0);
+                cell1.textContent = row.City;
+
+                const cell2 = newRow.insertCell(1);
+                cell2.textContent = row['Sub Category'];
+
+                const cell3 = newRow.insertCell(2);
+                cell3.textContent = row.Season;
+
+                const cell4 = newRow.insertCell(3);
+                cell4.textContent = row.Sales;
+
+                // Increment the count for this city
+                cityCounts[row.City]++;
+            }
+        });
+    })
+    .catch(error => console.error('Error loading JSON:', error));
+</script>
+
+</body>
+</html>

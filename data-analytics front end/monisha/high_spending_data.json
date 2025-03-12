@@ -1,0 +1,337 @@
+[
+    {
+        "City": "Bodi",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 3
+    },
+    {
+        "City": "Bodi",
+        "Region": "East",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Bodi",
+        "Region": "West",
+        "HighSpendingCustomerCount": 3
+    },
+    {
+        "City": "Chennai",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Chennai",
+        "Region": "East",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Chennai",
+        "Region": "South",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Chennai",
+        "Region": "West",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Coimbatore",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Coimbatore",
+        "Region": "East",
+        "HighSpendingCustomerCount": 3
+    },
+    {
+        "City": "Coimbatore",
+        "Region": "West",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Cumbum",
+        "Region": "East",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Cumbum",
+        "Region": "South",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Cumbum",
+        "Region": "West",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Dharmapuri",
+        "Region": "East",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Dharmapuri",
+        "Region": "South",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Dharmapuri",
+        "Region": "West",
+        "HighSpendingCustomerCount": 4
+    },
+    {
+        "City": "Dindigul",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Dindigul",
+        "Region": "East",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Dindigul",
+        "Region": "West",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Kanyakumari",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Kanyakumari",
+        "Region": "East",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Kanyakumari",
+        "Region": "South",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Kanyakumari",
+        "Region": "West",
+        "HighSpendingCustomerCount": 3
+    },
+    {
+        "City": "Karur",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Karur",
+        "Region": "East",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Karur",
+        "Region": "West",
+        "HighSpendingCustomerCount": 3
+    },
+    {
+        "City": "Krishnagiri",
+        "Region": "East",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Krishnagiri",
+        "Region": "South",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Madurai",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Madurai",
+        "Region": "East",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Madurai",
+        "Region": "West",
+        "HighSpendingCustomerCount": 4
+    },
+    {
+        "City": "Nagercoil",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Nagercoil",
+        "Region": "East",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Namakkal",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Namakkal",
+        "Region": "East",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Ooty",
+        "Region": "East",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Ooty",
+        "Region": "South",
+        "HighSpendingCustomerCount": 3
+    },
+    {
+        "City": "Ooty",
+        "Region": "West",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Perambalur",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Perambalur",
+        "Region": "East",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Perambalur",
+        "Region": "South",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Perambalur",
+        "Region": "West",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Pudukottai",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Pudukottai",
+        "Region": "East",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Region": "East",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Region": "West",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Salem",
+        "Region": "East",
+        "HighSpendingCustomerCount": 3
+    },
+    {
+        "City": "Salem",
+        "Region": "South",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Salem",
+        "Region": "West",
+        "HighSpendingCustomerCount": 3
+    },
+    {
+        "City": "Tenkasi",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Tenkasi",
+        "Region": "East",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Tenkasi",
+        "Region": "West",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Theni",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Theni",
+        "Region": "South",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Theni",
+        "Region": "West",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Tirunelveli",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Tirunelveli",
+        "Region": "East",
+        "HighSpendingCustomerCount": 3
+    },
+    {
+        "City": "Tirunelveli",
+        "Region": "West",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Trichy",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Trichy",
+        "Region": "West",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Vellore",
+        "Region": "East",
+        "HighSpendingCustomerCount": 2
+    },
+    {
+        "City": "Vellore",
+        "Region": "South",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Vellore",
+        "Region": "West",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Viluppuram",
+        "Region": "Central",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Viluppuram",
+        "Region": "East",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Viluppuram",
+        "Region": "West",
+        "HighSpendingCustomerCount": 1
+    },
+    {
+        "City": "Virudhunagar",
+        "Region": "East",
+        "HighSpendingCustomerCount": 3
+    }
+]

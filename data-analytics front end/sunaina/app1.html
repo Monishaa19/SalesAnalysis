@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feature Importance for Sales Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Feature Importance for Sales Prediction</h1>
+
+    <h2>Feature Importance Plot</h2>
+    <img src="feature_importance_plot.png" alt="Feature Importance Plot">
+
+    <h2>Feature Importance Table</h2>
+    <p>The following table displays the feature importances used in the Random Forest model for sales prediction:</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Importance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- This part will be dynamically generated using JavaScript -->
+        </tbody>
+    </table>
+
+    <script>
+        // Data to be inserted into the table (replace with actual feature importance from the Python script)
+        const featureImportanceData = [
+            { feature: 'Discount', importance: 0.35 },
+            { feature: 'Month', importance: 0.25 },
+            { feature: 'Year', importance: 0.20 },
+            { feature: 'Category', importance: 0.15 },
+            { feature: 'City', importance: 0.05 }
+        ];
+
+        // Dynamically populate the table with feature importance data
+        const tableBody = document.querySelector('table tbody');
+        featureImportanceData.forEach(row => {
+            const tr = document.createElement('tr');
+            const tdFeature = document.createElement('td');
+            tdFeature.textContent = row.feature;
+            const tdImportance = document.createElement('td');
+            tdImportance.textContent = row.importance.toFixed(3);
+            tr.appendChild(tdFeature);
+            tr.appendChild(tdImportance);
+            tableBody.appendChild(tr);
+        });
+    </script>
+</body>
+</html>

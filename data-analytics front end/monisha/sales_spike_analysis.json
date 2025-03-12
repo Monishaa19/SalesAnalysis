@@ -1,0 +1,122 @@
+[
+    {
+        "City": "Bodi",
+        "Season": "Monsoon",
+        "Sales": 86803
+    },
+    {
+        "City": "Chennai",
+        "Season": "Monsoon",
+        "Sales": 92897
+    },
+    {
+        "City": "Coimbatore",
+        "Season": "Monsoon",
+        "Sales": 97619
+    },
+    {
+        "City": "Cumbum",
+        "Season": "Monsoon",
+        "Sales": 83082
+    },
+    {
+        "City": "Dharmapuri",
+        "Season": "Monsoon",
+        "Sales": 81736
+    },
+    {
+        "City": "Dindigul",
+        "Season": "Monsoon",
+        "Sales": 73752
+    },
+    {
+        "City": "Kanyakumari",
+        "Season": "Monsoon",
+        "Sales": 99144
+    },
+    {
+        "City": "Karur",
+        "Season": "Monsoon",
+        "Sales": 109967
+    },
+    {
+        "City": "Krishnagiri",
+        "Season": "Monsoon",
+        "Sales": 98380
+    },
+    {
+        "City": "Madurai",
+        "Season": "Monsoon",
+        "Sales": 90582
+    },
+    {
+        "City": "Nagercoil",
+        "Season": "Monsoon",
+        "Sales": 80982
+    },
+    {
+        "City": "Namakkal",
+        "Season": "Monsoon",
+        "Sales": 81694
+    },
+    {
+        "City": "Ooty",
+        "Season": "Monsoon",
+        "Sales": 97151
+    },
+    {
+        "City": "Perambalur",
+        "Season": "Monsoon",
+        "Sales": 79883
+    },
+    {
+        "City": "Pudukottai",
+        "Season": "Monsoon",
+        "Sales": 87513
+    },
+    {
+        "City": "Ramanadhapuram",
+        "Season": "Monsoon",
+        "Sales": 89492
+    },
+    {
+        "City": "Salem",
+        "Season": "Winter",
+        "Sales": 79391
+    },
+    {
+        "City": "Tenkasi",
+        "Season": "Monsoon",
+        "Sales": 86904
+    },
+    {
+        "City": "Theni",
+        "Season": "Monsoon",
+        "Sales": 79895
+    },
+    {
+        "City": "Tirunelveli",
+        "Season": "Monsoon",
+        "Sales": 96404
+    },
+    {
+        "City": "Trichy",
+        "Season": "Monsoon",
+        "Sales": 77387
+    },
+    {
+        "City": "Vellore",
+        "Season": "Monsoon",
+        "Sales": 96935
+    },
+    {
+        "City": "Viluppuram",
+        "Season": "Monsoon",
+        "Sales": 74344
+    },
+    {
+        "City": "Virudhunagar",
+        "Season": "Monsoon",
+        "Sales": 95211
+    }
+]

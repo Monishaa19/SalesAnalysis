@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correlation Between Discounts and Sales</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        canvas {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Correlation Between Discounts and Sales by City</h1>
+        
+        <!-- Table to display data -->
+        <table>
+            <thead>
+                <tr>
+                    <th>City</th>
+                    <th>Correlation</th>
+                </tr>
+            </thead>
+            <tbody id="data-table">
+                <!-- Data rows will be dynamically inserted here -->
+            </tbody>
+        </table>
+
+        <!-- Canvas for bar chart -->
+        <canvas id="correlationChart" width="400" height="200"></canvas>
+    </div>
+
+    <script>
+        // Load JSON data and render the page
+        fetch('city_correlation.json')
+            .then(response => response.json())
+            .then(data => {
+                // Validate and process data
+                if (!Array.isArray(data) || data.length === 0) {
+                    console.error("Data is empty or invalid.");
+                    return;
+                }
+
+                // Populate the table with data
+                const tableBody = document.getElementById('data-table');
+                data.forEach(row => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `<td>${row.City}</td><td>${row.Correlation.toFixed(2)}</td>`;
+                    tableBody.appendChild(tr);
+                });
+
+                // Prepare data for visualization
+                const cities = data.map(row => row.City);
+                const correlations = data.map(row => row.Correlation);
+
+                // Render the bar chart
+                const ctx = document.getElementById('correlationChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: cities,
+                        datasets: [{
+                            label: 'Correlation Coefficient',
+                            data: correlations,
+                            backgroundColor: 'rgba(135, 206, 235, 0.7)',
+                            borderColor: 'rgba(70, 130, 180, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        return `Correlation: ${context.raw.toFixed(2)}`;
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: 'City'
+                                }
+                            },
+                            y: {
+                                title: {
+                                    display: true,
+                                    text: 'Correlation Coefficient'
+                                },
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Error loading or processing data:', error);
+                alert('Failed to load data. Please check the console for more details.');
+            });
+    </script>
+</body>
+</html>

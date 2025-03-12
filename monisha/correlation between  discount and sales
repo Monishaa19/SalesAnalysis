@@ -1,0 +1,38 @@
+# Correlation between discounts and cities
+# Positive Correlation (> 0):
+# Higher discounts are associated with higher sales.
+# Negative Correlation (< 0):
+# Higher discounts are associated with lower sales. - preception of lower quality, discounts saturating the market
+# Zero or Near Zero (~ 0):
+# No clear relationship between discounts and sales.
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the dataset (replace 'data.csv' with your file path)
+df = pd.read_csv('dataset4.csv')
+
+# Step 1: Group by City and calculate the correlation between Sales and Discount for each city
+city_correlation = (
+    df.groupby('City')
+    .apply(lambda group: group['Sales'].corr(group['Discount']))
+    .reset_index(name='Correlation')
+)
+
+# Step 2: Sort by correlation
+city_correlation = city_correlation.sort_values(by='Correlation', ascending=False)
+
+# Display city-level correlations
+print("Correlation between sales and discounts for each city:")
+print(city_correlation)
+
+# Step 3: Visualize correlations
+plt.figure(figsize=(12, 6))
+plt.bar(city_correlation['City'], city_correlation['Correlation'], color='skyblue')
+plt.axhline(0, color='gray', linestyle='--', linewidth=0.8)
+plt.title('Correlation Between Discounts and Sales by City')
+plt.xlabel('City')
+plt.ylabel('Correlation Coefficient')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()

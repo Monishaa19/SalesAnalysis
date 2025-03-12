@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total Sales Bar Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        canvas {
+            margin: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Total Sales by Customer</h1>
+<canvas id="totalSalesChart" width="800" height="400"></canvas>
+
+<script>
+    // Fetch the JSON file
+    fetch('customer_analysis_results.json')
+        .then(response => response.json())
+        .then(data => {
+            // Extract Total Sales data
+            const totalSales = Object.entries(data['Total Sales']);
+
+            // Prepare labels and data for the chart
+            const labels = totalSales.map(([customer]) => customer);
+            const salesData = totalSales.map(([, sales]) => sales);
+
+            // Create the bar chart using Chart.js
+            const ctx = document.getElementById('totalSalesChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Total Sales',
+                        data: salesData,
+                        backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(tooltipItem) {
+                                    return `Total Sales: $${tooltipItem.raw.toFixed(2)}`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            ticks: {
+                                autoSkip: false,
+                                maxRotation: 90,
+                                minRotation: 90
+                            }
+                        },
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Total Sales ($)'
+                            }
+                        }
+                    }
+                }
+            });
+        })
+        .catch(error => console.error('Error fetching JSON:', error));
+</script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Segmentation Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Customer Segmentation Results</h1>
+
+    <h2>Segmentation Plot</h2>
+    <img src="customer_segmentation_plot.png" alt="Customer Segmentation Plot">
+
+    <h2>Customer Segments</h2>
+    <p>The following table lists the customer segments based on total sales, profit, and order frequency:</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Customer Name</th>
+                <th>Total Sales</th>
+                <th>Total Profit</th>
+                <th>Order Frequency</th>
+                <th>Cluster</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- This part will be dynamically generated using JavaScript -->
+        </tbody>
+    </table>
+
+    <script>
+        // Function to fetch and display the customer data from the CSV file
+        fetch('customer_segments.csv')
+            .then(response => response.text())
+            .then(data => {
+                const rows = data.split('\n').slice(1); // Skip the header row
+                const tableBody = document.querySelector('table tbody');
+                
+                rows.forEach(row => {
+                    const columns = row.split(',');
+                    if (columns.length > 1) {
+                        const tr = document.createElement('tr');
+                        columns.forEach(col => {
+                            const td = document.createElement('td');
+                            td.textContent = col;
+                            tr.appendChild(td);
+                        });
+                        tableBody.appendChild(tr);
+                    }
+                });
+            })
+            .catch(error => console.error('Error loading the CSV data:', error));
+    </script>
+</body>
+</html>

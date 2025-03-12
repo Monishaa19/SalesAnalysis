@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average Sales Bar Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        canvas {
+            margin: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Average Sales by Customer</h1>
+<canvas id="avgSalesChart" width="800" height="400"></canvas>
+
+<script>
+    // Fetch the JSON file
+    fetch('customer_analysis_results.json')
+        .then(response => response.json())
+        .then(data => {
+            // Extract Average Sales data
+            const avgSales = Object.entries(data['Average Sales']);
+
+            // Prepare labels and data for the chart
+            const labels = avgSales.map(([customer]) => customer);
+            const salesData = avgSales.map(([, avgSale]) => avgSale);
+
+            // Create the bar chart using Chart.js
+            const ctx = document.getElementById('avgSalesChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Average Sales',
+                        data: salesData,
+                        backgroundColor: 'rgba(255, 159, 64, 0.6)',
+                        borderColor: 'rgba(255, 159, 64, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(tooltipItem) {
+                                    return `Avg Sales: $${tooltipItem.raw.toFixed(2)}`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            ticks: {
+                                autoSkip: false,
+                                maxRotation: 90,
+                                minRotation: 90
+                            }
+                        },
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Average Sales ($)'
+                            }
+                        }
+                    }
+                }
+            });
+        })
+        .catch(error => console.error('Error fetching JSON:', error));
+</script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Spike Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Sales Spike Analysis by City and Season</h1>
+    <table id="salesSpikeTable">
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Season</th>
+                <th>Sales</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data rows will be inserted here by JavaScript -->
+        </tbody>
+    </table>
+</div>
+
+<script>
+// Fetch the JSON data from the file
+fetch('sales_spike_analysis.json')
+    .then(response => response.json())
+    .then(data => {
+        // Get the sales spike table body element
+        const tableBody = document.getElementById('salesSpikeTable').getElementsByTagName('tbody')[0];
+
+        // Sort the data by City
+        data.sort((a, b) => a.City.localeCompare(b.City));
+
+        // Insert each row of data into the table
+        data.forEach(row => {
+            const newRow = tableBody.insertRow();
+
+            const cell1 = newRow.insertCell(0);
+            cell1.textContent = row.City;
+
+            const cell2 = newRow.insertCell(1);
+            cell2.textContent = row.Season;
+
+            const cell3 = newRow.insertCell(2);
+            cell3.textContent = row.Sales;
+        });
+    })
+    .catch(error => console.error('Error loading JSON:', error));
+</script>
+
+</body>
+</html>
